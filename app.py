@@ -6,8 +6,6 @@ import pathlib
 import fastai
 from fastai.learner import load_learner
 
-# Patch PosixPath to be interpreted as WindowsPath
-pathlib.PosixPath = pathlib.WindowsPath
 
 learn = load_learner('model.pkl')
 
