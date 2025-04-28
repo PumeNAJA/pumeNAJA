@@ -9,7 +9,7 @@ from fastai.learner import load_learner
 
 learn = load_learner('model.pkl')
 
-st.title("🖼️ Image Classifier")
+st.title("🖼️ ทำนายแมวนะจ๊ะ")
 
 # Upload image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
