@@ -1,0 +1,6 @@
+fastai==2.7.18
+timm
+streamlit
+torch
+torchvision
+Pillow
